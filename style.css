@@ -82,40 +82,46 @@ body {
 
 .tarot-card {
   background: linear-gradient(to bottom, #fef9e7, #f5e6ca);
-  border: 2px solid #aa8c55;
+  border: 2px solid #a67c52;
   border-radius: 8px;
   padding: 20px;
   width: 240px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
   font-family: 'EB Garamond', serif;
+  color: #3a2f1d;
   text-align: left;
   transition: transform 0.3s ease;
 }
 
-.tarot-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 4px 4px 16px rgba(0,0,0,0.4);
-}
 
 .tarot-title {
   font-size: 1.4em;
   font-weight: bold;
-  color: #4b3621;
-  border-bottom: 1px solid #aa8c55;
+  color: #2d1c0f;
+  border-bottom: 1px solid #c2a679;
   margin-bottom: 6px;
   font-family: 'Cormorant Garamond', serif;
   text-transform: uppercase;
 }
 
+
 .tarot-keyword {
   font-style: italic;
-  color: #6b4c2b;
+  color: #5a4326;
   margin-bottom: 10px;
   font-size: 0.95em;
 }
 
+
 .tarot-desc {
-  font-size: 0.9em;
-  color: #3c2f2f;
-  line-height: 1.4;
+  font-size: 0.92em;
+  color: #443628;
+  line-height: 1.5;
+}
+
+.tarot-desc::first-letter {
+  font-size: 1.3em;
+  font-weight: bold;
+  float: left;
+  padding-right: 4px;
 }
