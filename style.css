@@ -31,3 +31,37 @@ p {
 body {
   cursor: url('https://cur.cursors-4u.net/symbols/sym-4/sym309.cur'), auto;
 }
+/* === Tarot Card Layout === */
+.tarot-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.tarot-card {
+  background-color: #1a1a2e;
+  border: 2px solid #9f7aea;
+  border-radius: 12px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 0 20px #4fd1c5;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarot-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #a3bffa;
+}
+
+.tarot-card h2 {
+  color: #fbcfe8;
+  margin-bottom: 10px;
+  text-shadow: 0 0 5px #f472b6;
+}
+
+.tarot-card p {
+  color: #cbd5e1;
+  font-size: 0.95em;
+}
