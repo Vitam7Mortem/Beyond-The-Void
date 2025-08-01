@@ -70,3 +70,52 @@ body {
   border-radius: 8px;
   margin-bottom: 10px;
 }
+/* === Etteilla Tarot Layout === */
+.tarot-spread {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.tarot-card {
+  background: linear-gradient(to bottom, #fef9e7, #f5e6ca);
+  border: 2px solid #aa8c55;
+  border-radius: 8px;
+  padding: 20px;
+  width: 240px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  font-family: 'EB Garamond', serif;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.tarot-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 4px 4px 16px rgba(0,0,0,0.4);
+}
+
+.tarot-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #4b3621;
+  border-bottom: 1px solid #aa8c55;
+  margin-bottom: 6px;
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
+}
+
+.tarot-keyword {
+  font-style: italic;
+  color: #6b4c2b;
+  margin-bottom: 10px;
+  font-size: 0.95em;
+}
+
+.tarot-desc {
+  font-size: 0.9em;
+  color: #3c2f2f;
+  line-height: 1.4;
+}
