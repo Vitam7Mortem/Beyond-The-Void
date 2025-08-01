@@ -1,15 +1,6 @@
 /* === Cosmic Void Theme === */
 body {
-  background-color: #0d0d1a; /* deep space purple */
-  color: #e0e0ff; /* soft moonlight white */
-  font-family: 'Courier New', monospace;
-  text-align: center;
-  margin: 0;
-  padding: 40px;
-  background-image: radial-gradient(circle at center, #1a1a2e, #0d0d1a 80%);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  min-height: 100vh;
+  background: #d5c4a1; /* warm aged tan */
 }
 
 /* Headline */
@@ -81,41 +72,38 @@ body {
 }
 
 .tarot-card {
-  background: linear-gradient(to bottom, #fef9e7, #f5e6ca);
-  border: 2px solid #a67c52;
+  background: #f4efe7; /* warm parchment */
+  border: 2px solid #8b6f47; /* earthy bronze frame */
   border-radius: 8px;
   padding: 20px;
   width: 240px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
   font-family: 'EB Garamond', serif;
-  color: #3a2f1d;
+  color: #3b2b1f; /* deep brown ink */
   text-align: left;
   transition: transform 0.3s ease;
 }
 
-
 .tarot-title {
   font-size: 1.4em;
   font-weight: bold;
-  color: #2d1c0f;
-  border-bottom: 1px solid #c2a679;
+  color: #3c2a1a; /* earth brown */
+  border-bottom: 1px solid #a88d6e;
   margin-bottom: 6px;
   font-family: 'Cormorant Garamond', serif;
   text-transform: uppercase;
 }
 
-
 .tarot-keyword {
   font-style: italic;
-  color: #5a4326;
+  color: #5d4d3b; /* muted moss-brown */
   margin-bottom: 10px;
   font-size: 0.95em;
 }
 
-
 .tarot-desc {
   font-size: 0.92em;
-  color: #443628;
+  color: #3a2d22; /* dark, earthy ink */
   line-height: 1.5;
 }
 
